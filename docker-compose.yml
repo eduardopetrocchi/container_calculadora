@@ -1,0 +1,7 @@
+version: '3.7'  # Ou a versão que você estiver utilizando
+
+services:
+  calcuradora:
+    build: .
+    command: python calculadora.py
+
